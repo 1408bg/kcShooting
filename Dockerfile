@@ -10,6 +10,7 @@ RUN npm install
 WORKDIR /usr/src/app
 
 COPY ./server ./server
+COPY ./module ./module
 COPY ./lib ./lib
 
 EXPOSE 3000
